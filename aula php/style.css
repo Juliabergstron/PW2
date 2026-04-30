@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+/* Container central */
+form, body > div {
+    background: #ffffff;
+    padding: 50px 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Inputs */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #ff0000;
+    outline: none;
+}
+
+/* Botões */
+input[type="submit"],
+input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+input[type="submit"] {
+    background: #ff0000;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background: #ff0000;
+}
+
+input[type="reset"] {
+    background: #ccc;
+}
+
+input[type="reset"]:hover {
+    background: #999;
+}
+
+/* Resultado */
+.resultado {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
